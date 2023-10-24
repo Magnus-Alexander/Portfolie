@@ -28,6 +28,7 @@ main {
 
 .HeroSection {
   background-color: #5d576b;
+  color: azure;
 }
 
 .herodiv {
@@ -39,6 +40,7 @@ main {
 
 .about {
   background-color: #25998b;
+  color: azure;
   height: 100vh;
   display: flex;
   justify-content: center;
