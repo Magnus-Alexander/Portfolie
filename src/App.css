@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: aqua;
+}
+
+header {
+  background-color: #0a122a;
+  height: 60px;
+  width: 100%;
+}
+
+nav {
+  background-color: #3c3c3b;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  background-color: #f21b3f;
+}
+
+.HeroSection {
+  background-color: #5d576b;
+}
+
+.herodiv {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  background-color: #25998b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myWork {
+  background-color: #660941;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a:visited {
+  color: azure;
+}
+
+.myWork img {
+  height: 300px;
+  width: 500px;
+  border-radius: 10%;
+  transition: ease-in-out 0.2s;
+  object-fit: cover;
+}
+
+.myWork img:hover {
+  scale: 102%;
+}
+
+.Logo img {
+  height: 40px;
+  margin: 10px;
+  transition: ease-in-out 0.2s;
+}
+
+.Logo img:hover {
+  scale: 110%;
+}
+
+footer {
+  background-color: #3c3c3b;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: #3c3c3b;
+  color: azure;
+  border-color: #3c3c3b;
+  height: 30px;
+  transition: all 0.7s;
+  border-style: solid;
+  border-radius: 5%;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: azure;
+  color: #3c3c3b;
+  border-color: azure;
+}
+
+.space {
+  background-color: #660941;
+  height: 30px;
+  width: 20px;
+}
+
+.space2 {
+  background-color: #660941;
+  height: 10px;
+  width: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+}
