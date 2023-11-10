@@ -50,7 +50,7 @@
   background: rgba(255, 255, 255, 0.07);
   left: -20vmin;
   top: -20vmin;
-  animation: morph 10s linear infinite alternate, spin 50s linear infinite;
+  animation: morph 10s linear infinite alternate, spin 30s linear infinite;
   z-index: 1;
   will-change: border-radius, transform;
   transform-origin: 55% 55%;
@@ -65,7 +65,7 @@
   top: auto;
   bottom: 0;
   animation: morph 10s linear infinite alternate,
-    spin 10s linear infinite reverse;
+    spin 25s linear infinite reverse;
   transform-origin: 15% 15%;
 }
 
@@ -398,12 +398,13 @@ button {
   color: #e7e7e7;
   border-color: #3c3c3b;
   height: 40px;
-  width: 300px;
+  width: 250px;
   transition: all 0.7s;
   border-style: solid;
   border-radius: 10px;
   font-size: 30px;
   font-weight: bold;
+  transition: 1s ease-in-out;
 }
 
 button:hover {
@@ -475,6 +476,7 @@ h2 {
 
 .ects {
   color: #88f7e2;
+  transition: 1s ease-in-out;
 }
 
 button:hover .ects {
